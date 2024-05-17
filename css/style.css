@@ -1,0 +1,28 @@
+:root {
+  --length: 100px;
+}
+.square {
+  display: inline-block;
+  height: var(--length);
+  width: var(--length);
+  background-color: red;
+  position: relative;
+}
+
+.square::before {
+  border: calc(var(--length) / 5) solid transparent;
+  top: 100%;
+  position: absolute;
+  content: "";
+  border-top: calc(var(--length) / 5) solid blue;
+  left: 0;
+}
+
+.square::after {
+  border: calc(var(--length) / 5) solid transparent;
+  top: 100%;
+  position: absolute;
+  content: "";
+  border-top: calc(var(--length) / 5) solid green;
+  right: 0;
+}

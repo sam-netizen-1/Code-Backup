@@ -1,0 +1,13 @@
+.container {
+  width: 800px;
+  border: 1px solid black;
+  display: flex;
+  margin: 15px;
+  background-color: blue;
+}
+
+.flex-item {
+  flex: 1;
+  background-color: lightblue;
+  margin: 4px;
+}

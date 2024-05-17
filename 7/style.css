@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+.head-elements {
+  display: inline-block;
+  width: 49%;
+  text-align: left;
+}
+
+.img {
+  position: relative;
+  width: 50px;
+  border-radius: 50%;
+  border: thick double #ccc;
+  top: 10px;
+}
+.right {
+  text-align: right;
+}
+.menu {
+  display: inline-block;
+  text-align: left;
+}
+
+.options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background: #ccc;
+  left: 0;
+  padding: 4px;
+}
+
+.option {
+  display: block;
+  border-bottom: thin solid;
+}
+
+.menu {
+  padding: 4px;
+  border: thin solid;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu:hover .options {
+  display: block;
+}

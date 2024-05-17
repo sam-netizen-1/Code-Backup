@@ -1,0 +1,39 @@
+{
+    "name": "Bulbasaur",
+    "type": "Grass Poison",
+    "evolution_cycle": "Bulbasaur-Ivysaur-Venusaur",
+    "weakness": "Fire, Flying, Ice, Psychic-type",
+    "attacks": [
+        "Seed Bomb",
+        "Sludge Bomb",
+        "Power Whip",
+        "Frustration Shadow"
+    ],
+    "img_url": "https://www.pngmart.com/files/11/Pokemon-Bulbasaur-PNG-HD.png"
+}
+
+{
+    "name": "Pikachu",
+    "type": "Electric",
+        "evolution_cycle": "pichu-pikachu-raichu",
+        "weakness": "Ground, flying, steel",
+        "attacks": [
+            "Thunder shock",
+            "Thunderbolt",
+            "Thunder"
+        ],
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Pikachu_Barnstar.png/640px-Pikachu_Barnstar.png"
+    }
+
+{
+    "name": "Charizard",
+    "type": "Fire-Dragon",
+    "evolution_cycle": "charmander-charsomething-charizard",
+    "weakness": "Water",
+    "attacks": [
+        "Ember",
+        "Seismic Toss",
+        "Head Butt"
+    ],
+    "img_url": "https://upload.wikimedia.org/wikipedia/en/1/1f/Pok%C3%A9mon_Charizard_art.png"
+}

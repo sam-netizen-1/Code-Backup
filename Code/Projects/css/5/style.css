@@ -1,0 +1,22 @@
+.square {
+    display: inline-block;
+    /* border: 20px solid red; */
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: relative;
+}
+
+.triangle {
+    border: 5px solid transparent;
+    top: 100%;
+    left: 0px;
+    position: absolute;
+    border-top: 5px solid green;
+}
+
+.triangle.right {
+    right: 0%;
+    left: unset;
+}
+

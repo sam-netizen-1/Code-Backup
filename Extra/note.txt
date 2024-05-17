@@ -1,0 +1,23 @@
+Main goal of the html5 was inclusivity
+semantic tags increase Accessiblity
+flow of the data is called markup
+Reset User Agent Style sheet.
+Hyper text can have many more things than just text, such as 
+Meta Tag is used for good seo.
+
+git config --global user.name "Samkit Kothari"
+git config --global user.email "samkit.kothari@coditas.com"
+git init --initial-branch=main
+git remote add origin git@gitlab.com:samkit-coditas/freecodecamp-responsive-web-design.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+
+font-size =em;
+padding,margin= rem;
+width =%;
+grid =fr;
+min-height =vh, 
+diplay has both outer and inner display properties
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />

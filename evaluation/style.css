@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.names-container {
+  flex: 1;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}
+.details-container {
+  flex: 2;
+  background-color: aqua;
+}
+.names-container > .buttons {
+  flex: 1;
+}

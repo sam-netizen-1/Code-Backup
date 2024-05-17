@@ -1,0 +1,21 @@
+.square {
+  display: inline-block;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+
+}
+.square::after{
+  display: inline-block;
+  content: '';
+  border: solid 100px;
+  border-color: transparent transparent transparent black;
+  left: 200px;
+  position: relative;
+  border-radius: 0 250px 250px 0;
+}
+/* .triangle{
+  display: inline-block;
+    border: solid 100px;
+    border-color: transparent transparent transparent black;
+} */

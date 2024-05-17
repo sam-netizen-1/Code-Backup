@@ -1,0 +1,12 @@
+
+export const MASTER_SUBJECT_LIST = {
+    ENGLISH : 'ENGLISH',
+    MATHS : 'MATHS',
+    SCIENCE : 'SCIENCE',
+    MARATHI : 'MARATHI',
+    HINDI : 'HINDI',
+    HISTORY : 'HISTORY',
+    GEOGRAPHY : 'GEOGRAPHY',
+    FRENCH : 'FRENCH',
+    SANSKRIT : 'SANSKRIT'
+}
